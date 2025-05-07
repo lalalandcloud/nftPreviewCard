@@ -11,8 +11,8 @@ function Card (){
                             <img src={vu} alt="" /> 
                         </div>
                     </div>
-                    <div className='titre'>
-                        <h4>Equilibrium #4653</h4>
+                    <div>
+                        <h4 className='titre'>Equilibrium #4653</h4>
                     </div>
                     <div className='text'>
                         <p>Our equilibrium collection promotes balance and calm.</p>

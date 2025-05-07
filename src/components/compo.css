@@ -31,6 +31,11 @@
     height: 100%;
     width: 100%;
     border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+img{
+    align-self: center;
 }
 .invisible:hover{
     opacity: 1;
@@ -86,5 +91,17 @@ p{
 
 }
 .ppp{
+    color: hsl(178, 100%, 50%);
+}
+.titre{
+    cursor: pointer;
+}
+.titre:hover{
+    color: hsl(178, 100%, 50%);
+}
+span{
+    cursor: pointer;
+}
+span:hover{
     color: hsl(178, 100%, 50%);
 }
