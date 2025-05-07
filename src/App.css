@@ -1,0 +1,16 @@
+
+.outfit- {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+body{
+  /* background-color: hsl(217, 54%, 11%); */
+  /* height: 100%;
+  width: 100%; */
+  display: flex;
+  margin: 0;
+  font-family: '.outfit-', sans-serif;
+}
