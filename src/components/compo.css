@@ -1,4 +1,23 @@
+.back{
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .cardAll{
     background-color: hsl(216, 50%, 16%);
-    
+    border-radius: 15px;
+    height: 80%;
+    width: 22%;
+    padding: 20px;
+}
+
+.img{
+    background-image: url(../assets/images/image-equilibrium.jpg);
+    height: 60%;
+    object-fit: contain;
+    background-size: 100%;
 }
