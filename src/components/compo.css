@@ -10,8 +10,8 @@
 .cardAll{
     background-color: hsl(216, 50%, 16%);
     border-radius: 15px;
-    height: 80%;
-    width: 22%;
+    height: 500px;
+    width: 300px;
     padding: 20px;
     min-height: 450px;
 }
@@ -23,6 +23,17 @@
     object-fit: contain;
     background-size: 100%;
     border-radius: 15px;
+}
+.invisible{
+    content: "";
+    background-color: hsla(178, 100%, 50%, 0.5);
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+.invisible:hover{
+    opacity: 1;
 }
 h4{
     font-size: 14pt;
@@ -40,6 +51,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 10px;
 }
 .prix2{
     display: flex;
@@ -57,8 +69,21 @@ p{
     height: 18px;
     width: 18px;
 }
+.createur{
+    display: flex;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: solid 1px hsl(215, 32%, 27%);
+}
 .creaP{
     background-image: url(../assets/images/image-avatar.png);
+    background-size: 100%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: #fff solid 1px;
+    margin-right: 10px;
+
 }
 .ppp{
     color: hsl(178, 100%, 50%);

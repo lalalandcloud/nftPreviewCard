@@ -1,11 +1,16 @@
-import './compo.css'
+import './compo.css';
+import vu from "../assets/images/icon-view.svg"
 
 function Card (){
     return(
         <>
             <div className='back'>
                 <div className='cardAll'>
-                    <div className='img'></div>
+                    <div className='img'>
+                        <div className="invisible">
+                            <img src={vu} alt="" /> 
+                        </div>
+                    </div>
                     <div className='titre'>
                         <h4>Equilibrium #4653</h4>
                     </div>
@@ -16,8 +21,8 @@ function Card (){
                         <div className='prix2'>
                             <div className='logo'>
                             </div>
-                            <div className='ppp'>
-                                <p>0.0041 ETH</p>
+                            <div>
+                                <p className='ppp'>0.0041 ETH</p>
                             </div>
                         </div>
                         <div className='prix2'>
