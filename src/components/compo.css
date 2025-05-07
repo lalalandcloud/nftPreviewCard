@@ -13,11 +13,53 @@
     height: 80%;
     width: 22%;
     padding: 20px;
+    min-height: 450px;
 }
 
 .img{
     background-image: url(../assets/images/image-equilibrium.jpg);
+    background-repeat: no-repeat;
     height: 60%;
     object-fit: contain;
     background-size: 100%;
+    border-radius: 15px;
+}
+h4{
+    font-size: 14pt;
+}
+h4, span{
+    color: #fff;
+}
+p{
+    color: hsl(215, 51%, 70%);
+    font-size: 11pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.prix{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.prix2{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    height: 19px;
+    width: 12px;
+    background-image: url(../assets/images/icon-ethereum.svg);
+    background-repeat: no-repeat;
+}
+.icon{
+    background-image: url(../assets/images/icon-clock.svg);
+    background-repeat: no-repeat;
+    height: 18px;
+    width: 18px;
+}
+.creaP{
+    background-image: url(../assets/images/image-avatar.png);
+}
+.ppp{
+    color: hsl(178, 100%, 50%);
 }
